@@ -16,6 +16,7 @@ class ExpenseItem extends StatelessWidget {
       ),
       child: Column(
         children: [
+          Text(expense.title, style: Theme.of(context).textTheme.titleLarge,),
           Text(expense.title),
           const SizedBox(height: 4),
           Row(
